@@ -1,0 +1,29 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  line-height: 1.15;
+  
+}
+
+body {
+  background-color: rgb(207, 232, 255);
+  color: #222;
+  font: 400 1.4rem/100%, sans-serif;
+}
+
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  margin-top: 3.2rem;
+  padding: 3.2rem;
+  width: 100%;
+  max-width: 50rem;
+  border-radius: 1.6rem;
+  box-shadow: rgb(0 0 0 / 10%) 0 0 1rem;
+  background-color: #fff;
+}
