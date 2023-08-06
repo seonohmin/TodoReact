@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  margin: .8rem;
+}
+
+.container:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0s;
+}
+
+.container:hover .removeIcon {
+  visibility: visible;
+}
+
+.checkIcon {
+  font-size: 2.4rem;
+  margin-right: 1.6rem;
+  cursor: pointer;
+}
+
+.checkedCircleIcon {
+  color: #32cd32;
+}
+
+.unCheckedCircleIcon {
+  color: #c0c0c0;
+}
+
+.removeIcon {
+  font-size: 2.8rem;
+  margin-left: auto;
+  color: darkred;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.strikeThrough {
+  text-decoration: line-through;
+  color: #c0c0c0;
+}
