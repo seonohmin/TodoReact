@@ -5,11 +5,11 @@ export type TodoType = {
 }
 
 
-type TodoStateType = {
+export type TodoStateType = {
   todos: TodoType[]
 }
 
-type TodoActionType = {
+export type TodoActionType = {
   type: 'add'
   payload: {
     text: string
